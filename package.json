@@ -1,7 +1,7 @@
 {
   "name": "flow-pow",
   "version": "0.0.0",
-  "description": "",
+  "description": "Transform stream factory to exponentiate numeric data stream values according a specified power.",
   "author": {
     "name": "Athan Reines",
     "email": "athan@nodeprime.com"

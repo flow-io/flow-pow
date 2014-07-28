@@ -1,7 +1,7 @@
 flow-pow
 ========
 
-
+Transform stream factory to exponentiate numeric data stream values according a specified power.
 
 
 ## Installation
