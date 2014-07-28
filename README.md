@@ -44,7 +44,7 @@ Methods are chainable.
 
 ``` javascript
 powerStream()
-	.pow( 3 )
+	.exponent( 3 )
 	.stream()
 	.pipe( /* writable stream */ );
 ```
