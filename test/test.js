@@ -62,7 +62,7 @@ describe( 'flow-pow', function tests() {
 	});
 
 	it( 'should provide a default behavior of having exponent equal to 1', function test( done ) {
-		var data, expected, pStream, EXP = 1;
+		var data, expected, pStream;
 
 		// Simulate some data...
 		data = [ 1,2,3,4,5 ];
@@ -72,7 +72,6 @@ describe( 'flow-pow', function tests() {
 
 		// Create a new power stream:
 		pStream = powerStream()
-			.exponent( EXP )
 			.stream();
 
 		// Mock reading from the stream:
